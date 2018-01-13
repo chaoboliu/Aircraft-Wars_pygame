@@ -15,12 +15,12 @@ def aa():
 			for k,v in i.items():
 				print("%s:%s"%(k,v))
 def	bb():
-		soso = input("请输入您要查询的名字:")
+		soso = input("如果按差请按'enter'键退出功能选区\n 请输入您要查询的名字:")
 		for dic in list:
 			if soso == dic["name"]:
 				print("名字:%s 积分:%d"%(dic["name"],dic["jifen"]))
 def cc():
-		name = input("请输入您要修改的名字:")
+		name = input("如果按差请按'enter'键退出功能选区\n 请输入您要修改的名字:")
 		for dic in list:
 			if dic["name"] == name:
 				name2 = input("请输入您要替换的新名字:")
