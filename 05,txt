@@ -1,0 +1,60 @@
+增
+insert(position,args)
+append(args) //加到最后
+extend(args)
+
+查
+list[] 查
+
+ 
+改 
+list[] = ?
+
+删
+
+list.pop()删掉最后一个
+list.pop(position)删掉第几个
+
+list.remove(args) //删掉值
+
+del list[position] //删除
+
+list.soft() 升序
+list.soft(reverse=True) 降序
+list.sort(reverse = False) 升序
+
+
+list.count(args)  统计次数
+
+
+sorted(arg) 不会改变原数据 会返回一个数据
+
+
+************欢迎进入个人信息管理系统*************
+
+请选择功能 1 新增 2 查询  3 修改 4 删除
+
+定义个空列表
+新增：
+请输入名字
+请输入年龄
+请输入性别
+请输入工作
+插入到列表当中 并打印出来
+
+
+查询：
+请输入索引
+查出并打印
+
+修改：
+请输入要修改的人名
+请输入新的名字
+
+删除：
+请输入你要删除的人名
+删除后 提示删除成功
+
+
+ 
+
